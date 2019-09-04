@@ -1,0 +1,247 @@
+:root{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+}
+
+.img1{
+  border-radius: 50%;
+    width: 50rem;
+    height: 50rem;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 2rem;
+  margin-left: 37rem;
+}
+
+h1{
+    text-align: center;
+    font-size: 5rem;
+}
+
+h2{
+    text-align: center;
+    font-size: 4rem;
+    color: gray;
+}
+
+ul{
+    text-decoration: none;
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 124rem;
+  background-color: #f1f1f1;
+}
+li a{
+    display: block;
+    width:124rem;
+    text-decoration: none;
+    font-size: 3rem;
+    color: gray;
+    padding: .8rem 1.6rem;
+}
+li a:hover {
+    background-color: black;
+    color: white;
+  }
+
+  h3{
+  display: flex;
+  justify-content: center;
+    font-size: 4rem;
+    color: gray;
+  }
+
+  .Weiterbildung{
+    color: gray;
+    text-align: center;
+    font-size: 3rem;
+
+  }
+
+
+  .DCI{
+    color: rgb(25, 25, 172);
+    text-align: center;
+  }
+
+  .PDF{
+    color: rgb(25, 25, 172);
+    font-size: 3rem;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 50rem;
+    margin-bottom: 10rem;
+  }
+
+.PDF:hover{
+  color: gray;
+}
+
+.fashion{
+  padding-top: 15rem;
+  padding-left: 3rem;
+}
+
+.Bullhead{
+  padding-left: 4rem;
+  font-size: 3rem;
+  color: gray;
+  padding-bottom: 70rem;
+}
+#skill { 
+	list-style: none;
+	font: 1.2rem "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	width: 29.6rem; /*d.H. =296px (16)*/
+	margin: 5rem auto 0;
+	position: relative;
+	line-height: 2em;
+	padding: 3rem 0;
+}
+
+#skill li { 
+	margin-bottom:5rem; 
+	background:#e9e5e2;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#e1ddd9), to(#e9e5e2));
+	background-image: -webkit-linear-gradient(top, #e1ddd9, #e9e5e2);
+	background-image: -moz-linear-gradient(top, #e1ddd9, #e9e5e2);
+	background-image: -ms-linear-gradient(top, #e1ddd9, #e9e5e2);
+	background-image: -o-linear-gradient(top, #e1ddd9, #e9e5e2);
+	background-image: linear-gradient(top, #e1ddd9, #e9e5e2);  
+	height:2rem; 
+	border-radius:1rem; 
+	-moz-box-shadow: 0 .1rem 0rem #bebbb9 inset, 0 .1rem 0 #fcfcfc;	 
+	-webkit-box-shadow: 0 .1rem 0rem #bebbb9 inset, 0 .1rem 0 #fcfcfc;	 
+	box-shadow: 0 1px 0px #bebbb9 inset, 0 .1rem 0 #fcfcfc;	  
+}
+
+#skill li h4 { 
+	position:relative; 
+	top:-2.5rem;
+}
+
+.bar { 
+	height:1.8rem; 
+	margin:.1rem .2rem;  
+	position:absolute;
+	border-radius:1rem;
+	-moz-box-shadow: 0 .1rem 0rem #fcfcfc inset, 0 .1rem 0 #bebbb9;
+	-webkit-box-shadow: 0 .1rem 0rem #fcfcfc inset, 0 .1rem 0 #bebbb9;	 
+	box-shadow: 0 1px 0px #fcfcfc inset, 0 .1rem 0 #bebbb9;		
+}
+
+.graphic-design {
+	width:100%; 
+	-moz-animation:graphic-design 2s ease-out;
+	-webkit-animation:graphic-design 2s ease-out;
+	background-color: #f674a4;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f674a4), to(#e06995));
+	background-image: -webkit-linear-gradient(top, #f674a4, #e06995);
+	background-image: -moz-linear-gradient(top, #f674a4, #e06995);
+	background-image: -ms-linear-gradient(top, #f674a4, #e06995);
+	background-image: -o-linear-gradient(top, #f674a4, #e06995);
+	background-image: linear-gradient(top, #f674a4, #e06995);
+}
+
+.html-css {
+	width:90%;
+	-moz-animation:html-css 2s ease-out;
+	-webkit-animation:html-css 2s ease-out;
+	background-color: #f0bb4b;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f0bb4b), to(#d9aa44));
+	background-image: -webkit-linear-gradient(top, #f0bb4b, #d9aa44);
+	background-image: -moz-linear-gradient(top, #f0bb4b, #d9aa44);
+	background-image: -ms-linear-gradient(top, #f0bb4b, #d9aa44);
+	background-image: -o-linear-gradient(top, #f0bb4b, #d9aa44);
+	background-image: linear-gradient(top, #f0bb4b, #d9aa44);
+}
+
+.jquery {
+	width:65%;
+	-moz-animation:jquery 2s ease-out;
+	-webkit-animation:jquery 2s ease-out;
+	background-color: #a1ce5b;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#a1ce5b), to(#91ba52));
+	background-image: -webkit-linear-gradient(top, #a1ce5b, #91ba52);
+	background-image: -moz-linear-gradient(top, #a1ce5b, #91ba52);
+	background-image: -ms-linear-gradient(top, #a1ce5b, #91ba52);
+	background-image: -o-linear-gradient(top, #a1ce5b, #91ba52);
+	background-image: linear-gradient(top, #a1ce5b, #91ba52);
+}
+
+.wordpress {
+	width:80%;
+	-moz-animation:wordpress 2s ease-out;
+	-webkit-animation:wordpress 2s ease-out;
+	background-color: #66b3cc;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#66b3cc), to(#5da3ba));
+	background-image: -webkit-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: -moz-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: -ms-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: -o-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: linear-gradient(top, #66b3cc, #5da3ba)	
+}
+
+@-moz-keyframes graphic-design {0%  { width:0px;} 100%{ width:100%;}  }
+@-moz-keyframes html-css        { 0%  { width:0px;} 100%{ width:90%;}  }
+@-moz-keyframes jquery      { 0%  { width:0px;} 100%{ width:65%;}  }
+@-moz-keyframes wordpress   { 0%  { width:0px;} 100%{ width:80%;}  }
+
+@-webkit-keyframes graphic-design       { 0%  { width:0px;} 100%{ width:100%;}  }
+@-webkit-keyframes html-css        { 0%  { width:0px;} 100%{ width:90%;}  }
+@-webkit-keyframes jquery      { 0%  { width:0px;} 100%{ width:65%;}  }
+@-webkit-keyframes wordpress   { 0%  { width:0px;} 100%{ width:80%;}  }
+
+
+ /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+	position: fixed;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+  }
+  
+  /* Style the icon bar links */
+  .icon-bar a {
+	display: block;
+	text-align: center;
+	padding: 16px;
+	transition: all 0.3s ease;
+	color: white;
+	font-size: 20px;
+  }
+  
+  /* Style the social media icons with color, if you want */
+  .icon-bar a:hover {
+	background-color: #000;
+  }
+  
+  .twitter {
+	background: #55ACEE;
+	color: white;
+  }
+  
+  .google {
+	background: #dd4b39;
+	color: white;
+  }
+
+  .phone {
+	background: green;
+	color: white;
+  }
+  
+  .linkedin {
+	background: #007bb5;
+	color: white;
+  }
+  
+  .github {
+	background: gray;
+	color: white;
+  }
